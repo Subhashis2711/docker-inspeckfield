@@ -5,5 +5,5 @@ before_install:
   - docker-compose up -d
 
 script:
-  - docker run web_server composer install
+  - docker exec web_server composer install
   
