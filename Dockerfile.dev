@@ -19,6 +19,7 @@ WORKDIR /var/www/html/v1
 # RUN composer install
 
 COPY . .
+EXPOSE 80
 
 
 
